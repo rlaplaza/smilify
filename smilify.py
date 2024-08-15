@@ -59,6 +59,7 @@ def smilify(filename, charge=0):
             if isinstance(smiles, list):
                 smiles = smiles[0]
             print(smiles)
+            break
         except Exception as m:
             #print(m)
             continue
